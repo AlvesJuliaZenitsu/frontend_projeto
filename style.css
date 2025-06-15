@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/*padronização de tudo*/
+@import url("@mui/icons-material/LocationPin");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+  margin: 50px 250px;
+  padding: 0;
+  font: "Roboto", sans-serif;
+  color: #23272c;
+  font-family: "Inter", sans-serif;
+  background-color: #f7f7f7;
+  /* font-weight: 550; */
+}
+.header {
+  display: flex;
+  width: 95%;
+  column-gap: 20px;
+  justify-content: space-around;
+}
+
+section {
+  display: flex;
+  gap: 20px;
+}
+
+.img {
+  display: flex;
+}
+a {
+  display: flex;
+  text-decoration: none;
+  color: #3e3e3e;
+  font-weight: 550;
+}
+.atividades {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-self: flex-start;
+}
+
+.login {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  margin-left: 30px;
+}
+#create_account {
+  color: #ea1d2c;
+}
+
+#enter {
+  background-color: #ea1d2c;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 0.25rem;
+  width: 104;
+  height: 44;
+}
+
+.buscar {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.texto {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-top: 50px;
+}
+
+#title {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 2rem;
+  margin: 0;
+}
+#subtitle {
+  display: flex;
+  margin-bottom: 25px;
+  color: #757371;
+  font-family: "Inter", sans-serif;
+  margin: 0 5;
+}
+
+.label {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #ffffff;
+  padding: 0px 0px 0px 12px;
+  border-radius: 3px;
+  border-color: #f2f2f2;
+  cursor: text;
+}
+.address {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-style: none;
+}
+input[type="text"] {
+  display: flex;
+  width: 600px;
+  height: 45px;
+  margin-left: 15px;
+  border-style: none;
+  outline: none;
+  padding-right: 30px;
+  font-size: medium;
+  align-items: center;
+  cursor: text;
+}
+.secondary {
+  background-color: #ea1d2c;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 0.25rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.botao {
+  background-color: #ea1d2c;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 0.25rem;
+  border-style: none;
+  cursor: pointer;
+  width: 138.55px;
+  height: 49px;
+  font-weight: 600;
+}
+.fim {
+  display: flex;
+  gap: 45px;
+  flex-flow: column wrap;
+  align-content: center;
+  margin: 60px;
+}
+/*primeiro as divs; depois os botões*/
+.grandes {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+
+  /* eventohover */
+  /* position */
+}
+
+.menores {
+  display: flex;
+  gap: 70px;
+  /* height: 60px; */
+  justify-content: space-between;
+}
+#bebidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#farmacia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#petshop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
